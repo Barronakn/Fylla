@@ -1,0 +1,107 @@
+.width {
+  width: 700px;
+}
+
+// ---------------Responsivité------------
+@media screen and (max-width: 950px) {
+  .service {
+    flex-direction: column;
+  }
+  .service .left,
+  .service .right {
+    width: 100%;
+    text-align: center;
+  }
+
+  .service .left {
+    img {
+      margin: 0 auto;
+    }
+  }
+
+  .service .right {
+    margin-left: 0;
+    margin-top: 100px;
+  }
+  .services6 {
+    flex-direction: column;
+  }
+  .services6 .right,
+  .services6 .left {
+    width: 100%;
+    text-align: center;
+  }
+  .services6 .left p {
+    font-size: 50px;
+  }
+  .services6 .left img {
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  .services6 .right {
+    margin-left: 0;
+    padding: 0;
+  }
+  .services6 .right p {
+    margin-bottom: 50px;
+  }
+  .services6 .right #btn-service {
+    position: relative;
+  }
+}
+@media screen and (max-width: 840px) {
+  .services1 h1 {
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+  }
+  .services1 .Link {
+    display: flex;
+    flex-direction: column;
+  }
+  .services1 .Link a {
+    margin-left: 0;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .service .right h1 {
+    font-size: 30px;
+  }
+  .services6 .left p {
+    font-size: 30px;
+  }
+  .services6 .left img {
+    width: 50px;
+    height: 50px;
+  }
+  .services6 .right p {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .services1 h1 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .service .left h1,
+  .service .right h1 {
+    font-size: 30px;
+  }
+  .service .right .paragraph {
+    flex-direction: column;
+  }
+  .service .right h1,
+  .services6 .left p,
+  .services6 .right p {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .services1 h1 {
+    font-size: 30px;
+    margin-bottom: 160px;
+  }
+}

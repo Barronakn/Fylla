@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 15px;
+  max-width: 1700px !important;
+  background: #fff9f9;
+  border: 1px solid black;
+  z-index: 0;
+}
+
+@media screen and (min-width: 1700px) {
+  body {
+    margin: 0 auto;
+  }
+}
+
+body::-webkit-scrollbar {
+  background: rgb(219, 212, 212);
+  width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: rgb(252, 202, 202);
+  border-radius: 5px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: rgb(253, 178, 178);
+}
+
+.none {
+  display: none;
+}
+
+.block {
+  display: block;
+}

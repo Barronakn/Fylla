@@ -1,0 +1,32 @@
+.pages {
+  background: rgb(255, 249, 249);
+}
+
+@media screen and (max-width: 768px) {
+  // .pages {
+  //   top: 0;
+  // }
+  .pagesHover {
+    flex-direction: column;
+  }
+  .pagesHover .left,
+  .pagesHover .right {
+    width: 100%;
+  }
+  .pagesHover .left img {
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    height: 200px;
+  }
+  .pagesHover .right {
+    flex-direction: column;
+  }
+  .pagesHover .right .links {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .pagesHover .right .links li {
+    text-align: center;
+  }
+}

@@ -1,0 +1,59 @@
+.work .title {
+  height: 450px;
+}
+
+.work-text {
+  font-size: 83px;
+}
+
+.view {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  .work1,
+  .work2,
+  .work3,
+  .work4,
+  .work5 {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .work1 .link .first,
+  .work2 .link .first,
+  .work3 .link .first,
+  .work4 .link .first,
+  .work5 .link .first {
+    font-size: 30px;
+  }
+  .title h1 {
+    font-size: 50px;
+  }
+  .work .title {
+    height: auto;
+  }
+  .work1 .links,
+  .work2 .links,
+  .work3 .links,
+  .work4 .links,
+  .work5 .links {
+    margin: 25px auto;
+  }
+  .work1,
+  .work2,
+  .work3,
+  .work4,
+  .work5 {
+    row-gap: 25px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .work .title h1 {
+    font-size: 35px;
+  }
+}

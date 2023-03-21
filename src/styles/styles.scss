@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "settings.scss";
+@import "components/footer.scss";
+@import "components/navigation.scss";
+@import "pages/home.scss";
+@import "components/pages.scss";
+@import "pages/services.scss";
+@import "pages/studio.scss";
+@import "pages/contact.scss";
+@import "pages/work.scss";
+@import "components/cart.scss";

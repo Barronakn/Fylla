@@ -1,0 +1,25 @@
+.cart-bg {
+  background: rgba(0, 0, 0, 0.6);
+}
+.cart-content {
+  margin: 0;
+  border: 1px solid black;
+  background: rgb(255, 249, 249);
+}
+
+.content {
+  background: rgb(255, 249, 249);
+}
+
+.found {
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 375px) {
+  .cart-content .content .head {
+    flex-direction: column;
+  }
+  .cart-content .content .head a {
+    margin-top: 10px;
+  }
+}

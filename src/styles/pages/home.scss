@@ -1,0 +1,403 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@500&display=swap");
+
+//Section 1
+.syne {
+  font-family: Syne;
+}
+.section1Text,
+.section1Vid {
+  width: 45%;
+}
+
+//Section 2
+.borderRight {
+  border: none;
+  border-right: 1px solid black;
+  margin-left: 10px;
+  margin-right: 10px;
+  animation: Right 2s ease-in;
+}
+
+@keyframes Right {
+  0% {
+    height: 0%;
+  }
+  50% {
+    height: 50%;
+  }
+  100% {
+    height: 100%;
+  }
+}
+
+//Section 3
+
+.section3 .card p {
+  width: 200px;
+}
+.section3 .image {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 25px;
+  row-gap: 50px;
+}
+
+//Section 4
+
+.section4 img {
+  border-radius: 14px;
+}
+
+.section4 .image img {
+  max-width: none;
+  width: 300px;
+}
+
+.bottom {
+  top: 40%;
+  left: 7%;
+  width: 95%;
+}
+
+.btn-bg-black {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 15px;
+  margin-top: -5px;
+}
+
+.span {
+  left: 97%;
+  height: 225px;
+}
+
+.trait {
+  width: 1px;
+  animation: animate 2s ease-in;
+}
+
+@keyframes animate {
+  from {
+    height: 0%;
+  }
+  to {
+    height: 75%;
+  }
+}
+
+//Section 5
+
+#btn-service {
+  position: absolute;
+  margin-top: 0;
+  top: 95%;
+}
+
+//Section 6
+
+.rond {
+  border: 1px solid black;
+  height: 50px;
+  width: 175px;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 12px;
+}
+
+.btn-bg-none {
+  color: black;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 5px 15px;
+  margin-top: -5px;
+}
+
+// ----------Responsivité------------
+
+@media screen and (max-width: 1182px) {
+  .section3 .image {
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 25px;
+    row-gap: 50px;
+  }
+  .section3 .image .service {
+    border: none;
+    border-bottom: 1px solid black;
+    padding-bottom: 100px;
+    animation: border 2s ease-in;
+  }
+  .section3 .card p {
+    width: 100%;
+  }
+  .section3 .borderBottom {
+    display: none;
+  }
+  .section3 .borderRight {
+    border-right: none;
+    border-bottom: 1px solid black;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 925px) {
+  .section2 img {
+    width: 75px;
+    height: 75px;
+  }
+  .section4 {
+    flex-direction: column;
+  }
+  .section4 .image,
+  .section4 .image img {
+    width: 100%;
+  }
+  .values {
+    flex-direction: column;
+  }
+  .values .trait {
+    display: none;
+  }
+  .values .right,
+  .values .left {
+    width: 100%;
+  }
+  .values .left {
+    padding: 0;
+    margin-top: 50px;
+  }
+  .values .left img {
+    object-fit: cover;
+    width: 100%;
+  }
+  .values .right {
+    margin-top: 50px;
+  }
+  .section7 {
+    flex-direction: column;
+    margin-bottom: 100px;
+  }
+  .section7 .left,
+  .section7 .right {
+    width: 100%;
+  }
+  .section7 .left img {
+    margin-top: 0;
+    float: right;
+  }
+  .section7 .right {
+    padding: 0;
+  }
+  .section7 .right #btn-service {
+    margin-top: 25px;
+  }
+  .section7 .right .trait {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section1 {
+    flex-direction: column;
+  }
+  .section1Text p {
+    margin-top: 45px;
+  }
+  .section1Vid {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .section1Vid video {
+    max-width: none;
+    width: 100%;
+  }
+  .section1 .iconS1 {
+    margin: 50px 0;
+    float: right;
+  }
+  .section1Text {
+    width: 100%;
+  }
+  .section2 img {
+    width: 50px;
+    height: 50px;
+  }
+  .section5 {
+    flex-direction: column;
+  }
+  .section5 .left img {
+    margin-top: 0;
+    float: right;
+  }
+  .section5 .right,
+  .section5 .left {
+    width: 100%;
+  }
+  .section8 h1 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .section3 {
+    flex-direction: column;
+  }
+  .section3 h1 {
+    text-align: center;
+    width: 100%;
+  }
+  .section3 .image {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .section3 .title {
+    margin-bottom: 50px;
+  }
+  .section3 .image img {
+    width: 50px;
+    height: 50px;
+  }
+  .section3 .what {
+    flex-direction: column;
+    padding: 0;
+    margin-left: -17px;
+  }
+  .section3 .borderRight {
+    display: none;
+  }
+  .section3 .card {
+    margin-left: 0;
+  }
+  .section3 h1 {
+    text-align: justify;
+  }
+  .section8 {
+    flex-direction: column;
+  }
+  .section8 .all a {
+    float: right;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .section2 .images {
+    flex-wrap: wrap;
+  }
+  .section6 .value {
+    font-size: 45px;
+  }
+  .section9 {
+    flex-direction: column;
+  }
+  .section9 img {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .section4 h1 {
+    font-size: 40px;
+  }
+  .section4 .parag {
+    margin-right: 0;
+  }
+  .section4 .project a {
+    font-size: 18px;
+  }
+  .section4 .bloc {
+    padding: 0;
+    margin-top: 25px;
+  }
+
+  .section5 .left p {
+    margin-top: 35px;
+    font-size: 50px;
+  }
+  .section5 .right {
+    padding: 0;
+  }
+  .section5 .right p {
+    margin-bottom: 25px;
+  }
+  .rond {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .section1Text h1 {
+    font-size: 40px;
+  }
+  .section1Text p {
+    font-size: 18px;
+  }
+  .rond {
+    width: 300px;
+  }
+  .section7 .left p {
+    font-size: 40px;
+  }
+  .section8 h1 {
+    font-size: 30px;
+  }
+  .section8 .all a {
+    font-size: 15px;
+    padding: 3px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .section5 .left p {
+    font-size: 35px;
+  }
+  .section5 .left img {
+    width: 50px;
+    height: 50px;
+  }
+  .section6 .value {
+    font-size: 35px;
+  }
+  .section6 .row1,
+  .section6 .row2,
+  .section6 .row3 {
+    margin: 0;
+    margin-top: 25px;
+    margin-left: -25px;
+  }
+  .section6 .right h1 {
+    font-size: 25px;
+  }
+  .rond {
+    width: 350px;
+  }
+  .section7 .left img {
+    width: 50px;
+    height: 50px;
+  }
+  .section7 .left p {
+    font-size: 35px;
+  }
+  .section7 .right p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .section1 .iconS1 img {
+    width: 75px;
+    height: 75px;
+  }
+  .section4 h1 {
+    font-size: 30px;
+  }
+  .rond {
+    width: 450px;
+  }
+  .section7 .left p {
+    font-size: 30px;
+  }
+  .section8 h1 {
+    font-size: 20px;
+  }
+}

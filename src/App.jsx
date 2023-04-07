@@ -4,6 +4,7 @@ import Work from "./pages/Work";
 import Contact from "./pages/Contact";
 import Services from "./pages/Services";
 import Studio from "./pages/Studio";
+import { motion } from "framer-motion";
 
 const App = () => {
   return (

@@ -13,8 +13,8 @@
 .borderRight {
   border: none;
   border-right: 1px solid black;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
   animation: Right 2s ease-in;
 }
 
@@ -114,6 +114,36 @@
 }
 
 // ----------Responsivité------------
+@media screen and (min-width: 1700px) {
+  .section3 .borderRight {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+  .flexBloc {
+    margin-left: 100px;
+  }
+}
+
+@media screen and (max-width: 1228px) {
+  .section4 .image {
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 25px;
+    row-gap: 50px;
+  }
+  .section4 .image,
+  .section4 .image img {
+    width: 100%;
+  }
+  .section4 .ml-48 {
+    margin-left: 0;
+  }
+  .section4 .culture {
+    justify-content: space-between;
+  }
+  .section4 .ml-44 {
+    margin-left: 0;
+  }
+}
 
 @media screen and (max-width: 1182px) {
   .section3 .image {

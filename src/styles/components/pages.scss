@@ -2,10 +2,12 @@
   background: rgb(255, 249, 249);
 }
 
+.pages #rond {
+  width: 40px;
+  height: 40px;
+}
+
 @media screen and (max-width: 768px) {
-  // .pages {
-  //   top: 0;
-  // }
   .pagesHover {
     flex-direction: column;
   }

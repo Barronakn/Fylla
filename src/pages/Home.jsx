@@ -3,6 +3,7 @@ import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
 import Video from "/sectionVid.mp4";
 import { NavLink } from "react-router-dom";
+
 const Home = () => {
   return (
     <div className="home margin">
@@ -58,7 +59,6 @@ const Home = () => {
                 eiusmod tempor.
               </p>
             </div>
-
             <span className="borderRight"></span>
           </div>
           <div className="flex what service p-10">
@@ -123,48 +123,54 @@ const Home = () => {
 
           <div className="borderBottom"></div>
 
-          <div className="image w-1/2 relative">
-            <div className="flex">
-              <div className="p-10 bloc">
-                <img src="./project-02-p-800.webp" alt="" />
-                <div className="flex project justify-between">
-                  <NavLink className="syne underline-none text-2xl" to="#">
-                    Enjoy Silence
-                  </NavLink>
-                  <span>2022</span>
+          <div className="image grid grid-cols-2 w-1/2 relative">
+            <div className="flex flexBloc">
+              <div className="bloc_1">
+                <div className="flex">
+                  <div className="p-10 bloc">
+                    <img src="./project-02-p-800.webp" alt="" />
+                    <div className="flex project justify-between">
+                      <NavLink className="syne underline-none text-2xl" to="#">
+                        Enjoy Silence
+                      </NavLink>
+                      <span>2022</span>
+                    </div>
+                  </div>
+                  <div className="trait ml-5 mt-9 bg-black h-3/4"></div>
                 </div>
-              </div>
-              <div className="trait ml-5 mt-9 bg-black h-3/4"></div>
-            </div>
 
-            <div className="p-10 bloc">
-              <img src="./project-03-p-800.webp" alt="" />
-              <div className="flex project justify-between">
-                <NavLink className="syne underline-none text-2xl" to="#">
-                  Pure Vision
-                </NavLink>
-                <span>2022</span>
-              </div>
-            </div>
-            <div className="flex">
-              <div className="p-10 bloc">
-                <img src="./project-04-p-800.webp" alt="" />
-                <div className="flex project justify-between">
-                  <NavLink className="syne underline-none text-2xl" to="#">
-                    Boring Brand
-                  </NavLink>
-                  <span>2022</span>
+                <div className="p-10 bloc">
+                  <img src="./project-03-p-800.webp" alt="" />
+                  <div className="flex project justify-between">
+                    <NavLink className="syne underline-none text-2xl" to="#">
+                      Pure Vision
+                    </NavLink>
+                    <span>2022</span>
+                  </div>
                 </div>
               </div>
-              <div className="trait ml-5 mt-9 bg-black h-3/4"></div>
             </div>
-            <div className="p-10 bloc">
-              <img src="./project-05-p-800.webp" alt="" />
-              <div className="flex project justify-between">
-                <NavLink className="syne text-2xl" to="#">
-                  New Culture
-                </NavLink>
-                <span>2022</span>
+            <div className="bloc_2">
+              <div className="flex">
+                <div className="p-10 bloc ml-48">
+                  <img src="./project-04-p-800.webp" alt="" />
+                  <div className="flex project justify-between">
+                    <NavLink className="syne underline-none text-2xl" to="#">
+                      Boring Brand
+                    </NavLink>
+                    <span>2022</span>
+                  </div>
+                </div>
+                <div className="trait ml-5 mt-9 bg-black h-3/4"></div>
+              </div>
+              <div className="p-10 bloc ml-48">
+                <img src="./project-05-p-800.webp" alt="" />
+                <div className="flex culture project w-full">
+                  <NavLink className="syne text-2xl" to="#">
+                    New Culture
+                  </NavLink>
+                  <span className="ml-44">2022</span>
+                </div>
               </div>
             </div>
           </div>

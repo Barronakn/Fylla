@@ -26,7 +26,7 @@ const Pages = () => {
                   <NavLink to="/contact">Contact</NavLink>
                 </li>
                 <li>
-                  <NavLink id="talk" to="#">
+                  <NavLink id="talk text-xl" to="#">
                     More templates
                   </NavLink>
                 </li>

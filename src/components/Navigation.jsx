@@ -128,7 +128,7 @@ const Navigation = () => {
             </NavLink>
           </div>
         </div>
-        <div className="menu none">
+        <div className="menu none hover:cursor-pointer">
           <img
             onClick={handleClick}
             className="w-14"
@@ -136,7 +136,7 @@ const Navigation = () => {
             alt="Icon_Menu"
           />
         </div>
-        <div className="reset none">
+        <div className="reset none hover:cursor-pointer">
           <img
             onClick={handleReset}
             className="w-14"

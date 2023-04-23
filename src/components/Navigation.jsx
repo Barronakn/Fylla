@@ -16,9 +16,7 @@ const Navigation = () => {
   const mouseLeave = () => {
     const pages = document.querySelector(".pages");
     pages.classList.remove("block");
-    setTimeout(() => {
-      pages.classList.add("none");
-    }, 5000);
+    pages.classList.add("none");
   };
 
   const handleClick = () => {
@@ -31,7 +29,7 @@ const Navigation = () => {
     nav.style.background = "#fff9f9";
     nav.style.border = "1px solid black";
     nav.style.width = "96%";
-    nav.style.position = "fixed";
+    nav.style.position = "absolute";
     nav.style.top = "29%";
     nav.style.left = "2%";
     nav.style.flexDirection = "column";

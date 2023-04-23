@@ -54,6 +54,7 @@
     width: 100%;
   }
 }
+
 @media screen and (max-width: 1024px) {
   .studio1 img {
     object-fit: cover;
@@ -74,18 +75,49 @@
   .studio2 .left #talk {
     float: right;
   }
+
+  .studio4 .left p {
+    font-size: 45px;
+  }
 }
+
+@media screen and (max-width: 783px) {
+  .studio4 {
+    flex-direction: column;
+  }
+
+  .studio4 .left,
+  .studio4 .right {
+    width: 100%;
+  }
+
+  .studio4 .left img {
+    margin-top: 20px;
+    float: right;
+  }
+
+  .studio4 .right {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .studio1 h2 {
     font-size: 50px;
     width: 100%;
   }
 }
+
 @media screen and (max-width: 600px) {
   .studio {
     flex-direction: column;
     padding: 0;
   }
+  .studio .borderBottom {
+    margin-bottom: 15px;
+  }
+
   .studio2 .left h2 {
     font-size: 30px;
   }
@@ -100,6 +132,7 @@
     margin-left: 0;
   }
 }
+
 @media screen and (max-width: 425px) {
   .studio1 h2 {
     font-size: 30px;
@@ -110,12 +143,32 @@
   .studio3 .left p {
     font-size: 17px;
   }
+
+  .studio4 .left img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .studio4 .left p {
+    font-size: 30px;
+  }
+
+  .studio4 .right p {
+    font-size: 20px;
+  }
+
+  .studio4 .right {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
+
 @media screen and (max-width: 375px) {
   .studio h1 {
     font-size: 25px;
   }
 }
+
 @media screen and (max-width: 320px) {
   .studio img {
     margin-top: 50px;

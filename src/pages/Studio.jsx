@@ -162,7 +162,7 @@ const Studio = () => {
         </div>
       </div>
       <div class="borderBottom"></div>
-      {/* <div className="flex studio4">
+      <div className="flex studio4">
         <div className="left w-8/12 mt-16">
           <h1 className="uppercase">Contact</h1>
           <p className="syne uppercase text-7xl">
@@ -181,7 +181,7 @@ const Studio = () => {
             Our services
           </NavLink>
         </div>
-      </div> */}
+      </div>
       <div class="borderBottom"></div>
       <Footer />
     </div>

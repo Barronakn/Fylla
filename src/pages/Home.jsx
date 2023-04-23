@@ -62,7 +62,7 @@ const Home = () => {
             <span className="borderRight"></span>
           </div>
           <div className="flex what service p-10">
-            <img src="./icon-02.svg" alt="" />
+            <img className="icon_2" src="./icon-02.svg" alt="" />
             <div className="card ml-10">
               <h1 className="text-4xl uppercase mb-5 ">Design</h1>
               <p className=" leading-8 text-lg">
@@ -166,10 +166,10 @@ const Home = () => {
               <div className="p-10 bloc ml-48">
                 <img src="./project-05-p-800.webp" alt="" />
                 <div className="flex culture project w-full">
-                  <NavLink className="syne text-2xl" to="#">
+                  <NavLink className="syne text-2xl whitespace-nowrap" to="#">
                     New Culture
                   </NavLink>
-                  <span className="ml-44">2022</span>
+                  <span className="ml-32">2022</span>
                 </div>
               </div>
             </div>

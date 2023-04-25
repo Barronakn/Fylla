@@ -28,7 +28,7 @@ const Work = () => {
         <div className="imgs">
           <img
             className="rounded-2xl h-full w-full"
-            src="./project-01-p-1600.webp"
+            src="/dist/project-01-p-1600.webp"
             alt=""
           />
         </div>
@@ -50,7 +50,7 @@ const Work = () => {
         <div className="imgs">
           <img
             className="rounded-2xl h-full w-full"
-            src="./project-02-p-800.webp"
+            src="/dist/project-02-p-800.webp"
             alt=""
           />
         </div>
@@ -73,7 +73,7 @@ const Work = () => {
         <div className="imgs">
           <img
             className="rounded-2xl h-full w-full"
-            src="./project-03-p-800.webp"
+            src="/dist/project-03-p-800.webp"
             alt=""
           />
         </div>
@@ -95,7 +95,7 @@ const Work = () => {
         <div className="imgs">
           <img
             className="rounded-2xl h-full w-full"
-            src="./project-04-p-800.webp"
+            src="/dist/project-04-p-800.webp"
             alt=""
           />
         </div>
@@ -117,7 +117,7 @@ const Work = () => {
         <div className="imgs">
           <img
             className="rounded-2xl h-full w-full"
-            src="./project-05-p-800.webp"
+            src="/dist/project-05-p-800.webp"
             alt=""
           />
         </div>

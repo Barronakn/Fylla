@@ -29,7 +29,7 @@ const Services = () => {
       <div className="services2 flex my-20 service">
         <div className="left w-4/12">
           <div>
-            <img src="./icon-01.svg" alt="" />
+            <img src="/dist/icon-01.svg" alt="" />
             <h1 className="syne uppercase my-8 text-5xl">Branding</h1>
           </div>
           <div>
@@ -67,7 +67,7 @@ const Services = () => {
             muted
             loop
             autoPlay
-            src="./services-branding-transcode.mp4"
+            src="/dist/services-branding-transcode.mp4"
             alt=""
           />
         </div>
@@ -76,7 +76,7 @@ const Services = () => {
       <div className="services3 flex my-20 service">
         <div className="left w-4/12">
           <div>
-            <img src="./icon-02.svg" alt="" />
+            <img src="/dist/icon-02.svg" alt="" />
             <h1 className="syne uppercase my-8 text-5xl">Design</h1>
           </div>
           <div>
@@ -114,7 +114,7 @@ const Services = () => {
             muted
             loop
             autoPlay
-            src="./services-design-transcode.mp4"
+            src="/dist/services-design-transcode.mp4"
             alt=""
           />
         </div>
@@ -123,7 +123,7 @@ const Services = () => {
       <div className="services4 flex my-20 service">
         <div className="left w-4/12">
           <div>
-            <img src="./icon-03.svg" alt="" />
+            <img src="/dist/icon-03.svg" alt="" />
             <h1 className="syne uppercase my-8 text-5xl">Video</h1>
           </div>
           <div>

@@ -1,5 +1,5 @@
 import React from "react";
-import Navigation from "../components/Navigation";
+import Navigation from "./components/Navigation";
 import Footer from "../components/Footer";
 import Video from "/sectionVid.mp4";
 import { NavLink } from "react-router-dom";
@@ -18,7 +18,7 @@ const Home = () => {
             eiusmod tempor.
           </p>
           <div className="iconS1 mt-32">
-            <img src="./iconS1.svg" />
+            <img src="/dist/iconS1.svg" />
           </div>
         </div>
         <div className="section1Vid">
@@ -32,12 +32,12 @@ const Home = () => {
         <p className="self-center">Our clients</p>
         <span className="borderRight"></span>
         <div className="images flex gap-5">
-          <img src="./client-01.svg" alt="" />
-          <img src="./client-02.svg" alt="" />
-          <img src="./client-03.svg" alt="" />
-          <img src="./client-04.svg" alt="" />
-          <img src="./client-05.svg" alt="" />
-          <img src="./client-06.svg" alt="" />
+          <img src="/dist/client-01.svg" alt="" />
+          <img src="/dist/client-02.svg" alt="" />
+          <img src="/dist/client-03.svg" alt="" />
+          <img src="/dist/client-04.svg" alt="" />
+          <img src="/dist/client-05.svg" alt="" />
+          <img src="/dist/client-06.svg" alt="" />
         </div>
       </div>
 
@@ -51,7 +51,7 @@ const Home = () => {
         <div className="image w-2/3 relative">
           <div className="borderBottom bottom absolute"></div>
           <div className="flex what service p-10">
-            <img className="w-24 h-24" src="./icon-01.svg" alt="" />
+            <img className="w-24 h-24" src="/dist/icon-01.svg" alt="" />
             <div className="card ml-10">
               <h1 className="text-4xl uppercase mb-5">Branding</h1>
               <p className=" leading-8 text-lg">
@@ -62,7 +62,7 @@ const Home = () => {
             <span className="borderRight"></span>
           </div>
           <div className="flex what service p-10">
-            <img className="icon_2" src="./icon-02.svg" alt="" />
+            <img className="icon_2" src="/dist/icon-02.svg" alt="" />
             <div className="card ml-10">
               <h1 className="text-4xl uppercase mb-5 ">Design</h1>
               <p className=" leading-8 text-lg">
@@ -72,7 +72,7 @@ const Home = () => {
             </div>
           </div>
           <div className="flex what service relative p-10">
-            <img className="w-24 h-24" src="./icon-03.svg" alt="" />
+            <img className="w-24 h-24" src="/dist/icon-03.svg" alt="" />
             <div className="card ml-10">
               <h1 className="text-4xl uppercase mb-5 ">Video</h1>
               <p className=" leading-8 text-lg">
@@ -84,7 +84,7 @@ const Home = () => {
             <span className="borderRight"></span>
           </div>
           <div className="flex what p-10">
-            <img src="./icon-04.svg" alt="" />
+            <img src="/dist/icon-04.svg" alt="" />
             <div className="card ml-10">
               <h1 className="text-4xl uppercase mb-5 ">Content</h1>
               <p className=" leading-8 text-lg">
@@ -112,7 +112,7 @@ const Home = () => {
         <span className="borderRight mt-7"></span>
         <div className="flex flex-col">
           <div className="p-10 bloc project-01">
-            <img src="./project-01-p-1600.webp" alt="" />
+            <img src="/dist/project-01-p-1600.webp" alt="" />
             <div className="flex project justify-between">
               <NavLink className="syne underline-none text-2xl" to="#">
                 Dancing Starts
@@ -128,7 +128,7 @@ const Home = () => {
               <div className="bloc_1">
                 <div className="flex">
                   <div className="p-10 bloc">
-                    <img src="./project-02-p-800.webp" alt="" />
+                    <img src="/dist/project-02-p-800.webp" alt="" />
                     <div className="flex project justify-between">
                       <NavLink className="syne underline-none text-2xl" to="#">
                         Enjoy Silence
@@ -140,7 +140,7 @@ const Home = () => {
                 </div>
 
                 <div className="p-10 bloc">
-                  <img src="./project-03-p-800.webp" alt="" />
+                  <img src="/dist/project-03-p-800.webp" alt="" />
                   <div className="flex project justify-between">
                     <NavLink className="syne underline-none text-2xl" to="#">
                       Pure Vision
@@ -153,7 +153,7 @@ const Home = () => {
             <div className="bloc_2">
               <div className="flex">
                 <div className="p-10 bloc ml-48">
-                  <img src="./project-04-p-800.webp" alt="" />
+                  <img src="/dist/project-04-p-800.webp" alt="" />
                   <div className="flex project justify-between">
                     <NavLink className="syne underline-none text-2xl" to="#">
                       Boring Brand
@@ -164,7 +164,7 @@ const Home = () => {
                 <div className="trait ml-5 mt-9 bg-black h-3/4"></div>
               </div>
               <div className="p-10 bloc ml-48">
-                <img src="./project-05-p-800.webp" alt="" />
+                <img src="/dist/project-05-p-800.webp" alt="" />
                 <div className="flex culture project w-full">
                   <NavLink className="syne text-2xl whitespace-nowrap" to="#">
                     New Culture
@@ -185,7 +185,7 @@ const Home = () => {
           <p className="syne text-7xl">
             We help our clients succeed with innovative strategies.
           </p>
-          <img className="mt-64" src="./icon-04.svg" alt="" />
+          <img className="mt-64" src="/dist/icon-04.svg" alt="" />
         </div>
         <div className="trait ml-5 mt-9 bg-black"></div>
         <div className="right w-4/12 p-20 relative">
@@ -270,7 +270,7 @@ const Home = () => {
           <p className="syne uppercase text-7xl">
             Let's bring your brand to the next level
           </p>
-          <img className="mt-64" src="./icon-02.svg" alt="" />
+          <img className="mt-64" src="/dist/icon-02.svg" alt="" />
         </div>
         <div className="trait ml-5 mt-9 bg-black"></div>
         <div className="right w-4/12 p-20 relative">
@@ -298,7 +298,7 @@ const Home = () => {
         <div>
           <img
             className="rounded-md"
-            src="./blog-01-preview-p-800.webp"
+            src="/dist/blog-01-preview-p-800.webp"
             alt=""
           />
           <h1 className="syne py-1">Branding</h1>
@@ -310,7 +310,7 @@ const Home = () => {
         <div>
           <img
             className="rounded-md"
-            src="./blog-02-preview-p-800.webp"
+            src="/dist/blog-02-preview-p-800.webp"
             alt=""
           />
           <h1 className="syne py-1">Branding</h1>
@@ -322,7 +322,7 @@ const Home = () => {
         <div>
           <img
             className="rounded-md"
-            src="./blog-03-preview-p-800.webp"
+            src="/dist/blog-03-preview-p-800.webp"
             alt=""
           />
           <h1 className="syne py-1">Branding</h1>

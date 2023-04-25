@@ -13,7 +13,7 @@ const Studio = () => {
         </h2>
         <img
           className="w-full height rounded-2xl"
-          src="./home-values-p-1080.webp"
+          src="/dist/home-values-p-1080.webp"
           alt=""
         />
       </div>
@@ -33,7 +33,7 @@ const Studio = () => {
         <span className="borderRight mt-7"></span>
         <div className="w-5/12 right relative">
           <div className="flex p-10 studio">
-            <img className="w-24 h-24" src="./icon-01.svg" alt="" />
+            <img className="w-24 h-24" src="/dist/icon-01.svg" alt="" />
             <div className="ml-10">
               <h1 className="text-4xl uppercase mb-5">Vision</h1>
               <p className=" leading-8 text-lg">
@@ -46,7 +46,7 @@ const Studio = () => {
           <div class="borderBottom"></div>
 
           <div className="flex p-10 studio">
-            <img className="w-24 h-24" src="./icon-02.svg" alt="" />
+            <img className="w-24 h-24" src="/dist/icon-02.svg" alt="" />
             <div className="ml-10">
               <h1 className="text-4xl uppercase mb-5 ">Innovation</h1>
               <p className=" leading-8 text-lg">
@@ -59,7 +59,7 @@ const Studio = () => {
           <div class="borderBottom"></div>
 
           <div className="flex p-10 studio">
-            <img src="./icon-03.svg" alt="" />
+            <img src="/dist/icon-03.svg" alt="" />
             <div className="ml-10">
               <h1 className="text-4xl uppercase mb-5 ">Connection</h1>
               <p className=" leading-8 text-lg">
@@ -168,7 +168,7 @@ const Studio = () => {
           <p className="syne uppercase text-7xl">
             Let's bring your brand to the next level
           </p>
-          <img className="mt-64" src="./icon-02.svg" alt="" />
+          <img className="mt-64" src="/dist/icon-02.svg" alt="" />
         </div>
         <div className="trait ml-5 mt-9 bg-black"></div>
         <div className="right w-4/12 p-20 relative">

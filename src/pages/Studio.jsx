@@ -33,7 +33,7 @@ const Studio = () => {
         <span className="borderRight mt-7"></span>
         <div className="w-5/12 right relative">
           <div className="flex p-10 studio">
-            <img className="w-24 h-24" src="./icon-01.svg" alt="" />
+            <img className="w-24 h-24" src="./icon-01.svg" alt="icon-01" />
             <div className="ml-10">
               <h1 className="text-4xl uppercase mb-5">Vision</h1>
               <p className=" leading-8 text-lg">
@@ -46,7 +46,7 @@ const Studio = () => {
           <div class="borderBottom"></div>
 
           <div className="flex p-10 studio">
-            <img className="w-24 h-24" src="./icon-02.svg" alt="" />
+            <img className="w-24 h-24" src="./icon-02.svg" alt="icon-02" />
             <div className="ml-10">
               <h1 className="text-4xl uppercase mb-5 ">Innovation</h1>
               <p className=" leading-8 text-lg">
@@ -59,7 +59,7 @@ const Studio = () => {
           <div class="borderBottom"></div>
 
           <div className="flex p-10 studio">
-            <img src="./icon-03.svg" alt="" />
+            <img src="./icon-03.svg" alt="icon-03" />
             <div className="ml-10">
               <h1 className="text-4xl uppercase mb-5 ">Connection</h1>
               <p className=" leading-8 text-lg">
@@ -93,7 +93,7 @@ const Studio = () => {
                   autoPlay
                   loop
                   src="./studio-team-01-transcode.mp4"
-                  alt=""
+                  alt="studio-team-01"
                 />
                 <div className="">
                   <h1 className="syne underline-none text-2xl" to="#">
@@ -113,7 +113,7 @@ const Studio = () => {
                   autoPlay
                   loop
                   src="./studio-team-02-transcode.mp4"
-                  alt=""
+                  alt="studio-team-02"
                 />
               </div>
               <div className="">
@@ -131,7 +131,7 @@ const Studio = () => {
                   autoPlay
                   loop
                   src="./studio-team-03-transcode.mp4"
-                  alt=""
+                  alt="studio-team-03"
                 />
                 <div className="">
                   <h1 className="syne underline-none text-2xl" to="#">
@@ -149,7 +149,7 @@ const Studio = () => {
                 autoPlay
                 loop
                 src="./studio-team-04-transcode.mp4"
-                alt=""
+                alt="studio-team-04"
               />
               <div className="">
                 <h1 className="syne text-2xl" to="#">

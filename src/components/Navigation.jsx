@@ -53,7 +53,7 @@ const Navigation = () => {
     <div>
       <div className="navigation flex justify-between">
         <div className="logo">
-          <NavLink to="/">
+          <NavLink to="/Fylla">
             <img src="./logo.svg" alt="" />
           </NavLink>
         </div>

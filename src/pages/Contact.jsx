@@ -1,4 +1,4 @@
-import Navigation from "./components/Navigation";
+import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
 import { NavLink } from "react-router-dom";
 
@@ -83,7 +83,7 @@ const Contact = () => {
           <div className="flex p-7">
             <img
               className="w-full h-28 rounded-xl"
-              src="/dist/office-01-p-500.webp"
+              src="./office-01-p-500.webp"
               alt=""
             />
             <div className="card ml-10 mr-10 mr-16">
@@ -98,7 +98,7 @@ const Contact = () => {
           <div className="flex p-7 w-full ml-6">
             <img
               className="h-28 rounded-xl"
-              src="/dist/office-02-p-500.webp"
+              src="./office-02-p-500.webp"
               alt=""
             />
             <div className="card ml-10 mr-10">
@@ -111,7 +111,7 @@ const Contact = () => {
           <div className="flex p-7">
             <img
               className="w-full h-28 rounded-xl"
-              src="/dist/office-03-p-500.webp"
+              src="./office-03-p-500.webp"
               alt=""
             />
             <div className="card ml-10 mr-10  mr-16">
@@ -125,7 +125,7 @@ const Contact = () => {
           <div className="flex p-7 w-full ml-6">
             <img
               className="h-28 rounded-xl"
-              src="/dist/office-04-p-500.webp"
+              src="./office-04-p-500.webp"
               alt=""
             />
             <div className="card ml-10 mr-10">
@@ -149,28 +149,28 @@ const Contact = () => {
             <NavLink className="text-2xl w-full ml-16" to="#">
               Integer vitae justo eget magna?
             </NavLink>
-            <img className="bg-black" src="/dist/plus.svg" alt="" id="image" />
+            <img className="bg-black" src="./plus.svg" alt="" id="image" />
           </div>
           <div class="borderBottom mb-8 ml-16"></div>
           <div className="flex w-full justify-between">
             <NavLink className="text-2xl w-full ml-16" to="#">
               Dolor magna eget est lorem ipsum?
             </NavLink>
-            <img className="bg-black" src="/dist/plus.svg" alt="" id="image" />
+            <img className="bg-black" src="./plus.svg" alt="" id="image" />
           </div>
           <div class="borderBottom mb-8 ml-16"></div>
           <div className="flex w-full justify-between">
             <NavLink className="text-2xl w-full ml-16" to="#">
               Ac tincidunt vitae semper quis lectus?
             </NavLink>
-            <img className="bg-black" src="/dist/plus.svg" alt="" id="image" />
+            <img className="bg-black" src="./plus.svg" alt="" id="image" />
           </div>
           <div class="borderBottom mb-8 ml-16"></div>
           <div className="flex w-full justify-between">
             <NavLink className="text-2xl w-full ml-16" to="#">
               Sagittis orci a scelerisque?
             </NavLink>
-            <img className="bg-black" src="/dist/plus.svg" alt="" id="image" />
+            <img className="bg-black" src="./plus.svg" alt="" id="image" />
           </div>
           <div class="borderBottom ml-16"></div>
         </div>

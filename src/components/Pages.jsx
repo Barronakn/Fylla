@@ -5,7 +5,7 @@ const Pages = () => {
     <div className="pages fixed right-16 left-16 top-36 none">
       <div className="pagesHover flex gap-20">
         <div className="left w-1/3">
-          <img className="rounded-lg w-84" src="/dist/dropdown.webp" alt="" />
+          <img className="rounded-lg w-84" src="./dropdown.webp" alt="" />
         </div>
         <div className="flex flex-col">
           <div className="right flex justify-around gap-32">

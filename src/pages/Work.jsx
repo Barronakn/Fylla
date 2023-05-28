@@ -10,8 +10,8 @@ const Work = () => {
       <div className="title h-64">
         <h1 className="work-text syne w-1/2">Our branding success stories.</h1>
       </div>
-      <div class="borderBottom"></div>
-      <div className="work1 gap-48 my-16 syne flex">
+      <div className="borderBottom"></div>
+      <section className="work1 gap-48 my-16 syne flex">
         <div className="link uppercase">
           <NavLink className="text-6xl first" to="">
             Dancing Stars
@@ -32,9 +32,9 @@ const Work = () => {
             alt=""
           />
         </div>
-      </div>
-      <div class="borderBottom"></div>
-      <div className="work2 gap-4 my-16 syne flex">
+      </section>
+      <div className="borderBottom"></div>
+      <section className="work2 gap-4 my-16 syne flex">
         <div className="link uppercase">
           <NavLink className="text-6xl first" to="">
             Enjoy Silence
@@ -54,9 +54,9 @@ const Work = () => {
             alt=""
           />
         </div>
-      </div>
-      <div class="borderBottom"></div>
-      <div className="work3 gap-64 my-16 syne flex">
+      </section>
+      <div className="borderBottom"></div>
+      <section className="work3 gap-64 my-16 syne flex">
         <div className="link uppercase">
           <NavLink className="text-6xl first" to="">
             Pure <br /> Vision
@@ -77,9 +77,9 @@ const Work = () => {
             alt=""
           />
         </div>
-      </div>
-      <div class="borderBottom"></div>
-      <div className="work4 gap-4 my-16 syne flex">
+      </section>
+      <div className="borderBottom"></div>
+      <section className="work4 gap-4 my-16 syne flex">
         <div className="link uppercase">
           <NavLink className="text-6xl first" to="">
             Boring Brand
@@ -99,9 +99,9 @@ const Work = () => {
             alt=""
           />
         </div>
-      </div>
-      <div class="borderBottom"></div>
-      <div className="work5 gap-4 my-16 syne flex">
+      </section>
+      <div className="borderBottom"></div>
+      <section className="work5 gap-4 my-16 syne flex">
         <div className="link uppercase">
           <NavLink className="text-6xl first" to="">
             New Culture
@@ -121,8 +121,8 @@ const Work = () => {
             alt=""
           />
         </div>
-      </div>
-      <div class="borderBottom"></div>
+      </section>
+      <div className="borderBottom"></div>
       <Footer />
     </div>
   );

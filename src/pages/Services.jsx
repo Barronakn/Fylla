@@ -6,7 +6,7 @@ const Services = () => {
   return (
     <div className="margin">
       <Navigation />
-      <div className="services1">
+      <section className="services1">
         <h1 className="syne text-8xl mb-64 width">
           We create your brand together.
         </h1>
@@ -24,12 +24,12 @@ const Services = () => {
             Content
           </NavLink>
         </div>
-      </div>
-      <div class="borderBottom"></div>
-      <div className="services2 flex my-20 service">
+      </section>
+      <div className="borderBottom"></div>
+      <section className="services2 flex my-20 service">
         <div className="left w-4/12">
           <div>
-            <img src="./icon-01.svg" alt="" />
+            <img src="./icon-01.svg" alt="icon-01" />
             <h1 className="syne uppercase my-8 text-5xl">Branding</h1>
           </div>
           <div>
@@ -67,13 +67,14 @@ const Services = () => {
             muted
             loop
             autoPlay
-            src="./services-branding-transcode.mp4"
-            alt=""
+            src="/public/services-branding-transcode.mp4"
+            alt="services-branding-transcode-video"
+            controls
           />
         </div>
-      </div>
-      <div class="borderBottom"></div>
-      <div className="services3 flex my-20 service">
+      </section>
+      <div className="borderBottom"></div>
+      <section className="services3 flex my-20 service">
         <div className="left w-4/12">
           <div>
             <img src="./icon-02.svg" alt="" />
@@ -114,13 +115,13 @@ const Services = () => {
             muted
             loop
             autoPlay
-            src="./services-design-transcode.mp4"
-            alt=""
+            src="/public/services-design-transcode.mp4"
+            alt="services-design-transcode-video"
           />
         </div>
-      </div>
-      <div class="borderBottom"></div>
-      <div className="services4 flex my-20 service">
+      </section>
+      <div className="borderBottom"></div>
+      <section className="services4 flex my-20 service">
         <div className="left w-4/12">
           <div>
             <img src="./icon-03.svg" alt="" />
@@ -161,13 +162,13 @@ const Services = () => {
             muted
             loop
             autoPlay
-            src="./services-video-transcode.mp4"
-            alt=""
+            src="/public/services-video-transcode.mp4"
+            alt="services-video-transcode-video"
           />
         </div>
-      </div>
-      <div class="borderBottom"></div>
-      <div className="services5 flex my-20 service">
+      </section>
+      <div className="borderBottom"></div>
+      <section className="services5 flex my-20 service">
         <div className="left w-4/12">
           <div>
             <img src="./icon-04.svg" alt="" />
@@ -208,13 +209,13 @@ const Services = () => {
             muted
             loop
             autoPlay
-            src="./services-content-transcode.mp4"
-            alt=""
+            src="/public/services-content-transcode.mp4"
+            alt="services-content-transcode-video"
           />
         </div>
-      </div>
+      </section>
       <div class="borderBottom"></div>
-      <div className="flex services6">
+      <section className="flex services6">
         <div className="left w-8/12 mt-16">
           <h1 className="uppercase">Contact</h1>
           <p className="syne uppercase text-7xl">
@@ -233,8 +234,8 @@ const Services = () => {
             Our services
           </NavLink>
         </div>
-      </div>
-      <div class="borderBottom"></div>
+      </section>
+      <div className="borderBottom"></div>
       <Footer />
     </div>
   );

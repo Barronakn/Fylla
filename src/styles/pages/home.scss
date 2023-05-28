@@ -426,15 +426,33 @@
     width: 75px;
     height: 75px;
   }
+
+  .section4 .bloc:nth-child(1) {
+    margin-left: 0;
+  }
+
+  .section4 .bloc:nth-child(2),
+  .section4 .bloc:nth-child(4) {
+    margin-left: -40px;
+  }
+
+  .section4 .bloc:nth-child(1),
+  .section4 .bloc:nth-child(3) {
+    margin-left: -20px;
+  }
+
   .section4 h1 {
     font-size: 30px;
   }
+
   .rond {
     width: 450px;
   }
+
   .section7 .left p {
     font-size: 30px;
   }
+
   .section8 h1 {
     font-size: 20px;
   }

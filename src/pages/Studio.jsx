@@ -6,7 +6,7 @@ const Studio = () => {
   return (
     <div className="studio margin">
       <Navigation />
-      <div className="studio1 py-3">
+      <section className="studio1 py-3">
         <h1 className="uppercase">About us</h1>
         <h2 className="text-8xl w-3/4 syne my-8">
           Creative studio that inspires.
@@ -16,9 +16,9 @@ const Studio = () => {
           src="./home-values-p-1080.webp"
           alt=""
         />
-      </div>
+      </section>
       <div class="borderBottom"></div>
-      <div className="studio2 flex">
+      <section className="studio2 flex">
         <div className="left w-7/12">
           <h1 className="title tracking-widest mt-6 uppercase">Our values</h1>
           <h2 className="syne text-7xl more">
@@ -56,7 +56,7 @@ const Studio = () => {
               </p>
             </div>
           </div>
-          <div class="borderBottom"></div>
+          <div className="borderBottom"></div>
 
           <div className="flex p-10 studio">
             <img src="./icon-03.svg" alt="icon-03" />
@@ -70,9 +70,9 @@ const Studio = () => {
             </div>
           </div>
         </div>
-      </div>
-      <div class="borderBottom"></div>
-      <div className="studio3 relative flex">
+      </section>
+      <div className="borderBottom"></div>
+      <section className="studio3 relative flex">
         <div className="left mr-28">
           <h1 className="mt-6 text-6xl uppercase">Our team</h1>
           <p className="leading-8 my-10 text-xl">
@@ -160,9 +160,9 @@ const Studio = () => {
             </div>
           </div>
         </div>
-      </div>
-      <div class="borderBottom"></div>
-      <div className="flex studio4">
+      </section>
+      <div className="borderBottom"></div>
+      <section className="flex studio4">
         <div className="left w-8/12 mt-16">
           <h1 className="uppercase">Contact</h1>
           <p className="syne uppercase text-7xl">
@@ -181,8 +181,8 @@ const Studio = () => {
             Our services
           </NavLink>
         </div>
-      </div>
-      <div class="borderBottom"></div>
+      </section>
+      <div className="borderBottom"></div>
       <Footer />
     </div>
   );

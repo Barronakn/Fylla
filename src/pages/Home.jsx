@@ -1,14 +1,14 @@
 import React from "react";
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
-import Video from "/sectionVid.mp4";
+import Video from "/public/sectionVid.mp4";
 import { NavLink } from "react-router-dom";
 
 const Home = () => {
   return (
     <div className="home margin">
       <Navigation />
-      <div className="section1 flex mt-24 justify-around">
+      <section className="section1 flex mt-24 justify-around">
         <div className="section1Text">
           <h1 className="text-7xl syne">
             We are a digital agency from Lisbon.
@@ -22,13 +22,21 @@ const Home = () => {
           </div>
         </div>
         <div className="section1Vid">
-          <video className="rounded-2xl" muted loop autoPlay src={Video} />
+          <video
+            className="rounded-2xl"
+            src={Video}
+            alt="section1Vid"
+            controls
+            muted
+            loop
+            autoPlay
+          />
         </div>
-      </div>
+      </section>
 
       <div className="borderBottom"></div>
 
-      <div className="section2 flex justify-between mt-10">
+      <section className="section2 flex justify-between mt-10">
         <p className="self-center">Our clients</p>
         <span className="borderRight"></span>
         <div className="images flex gap-5">
@@ -39,11 +47,11 @@ const Home = () => {
           <img src="./client-05.svg" alt="" />
           <img src="./client-06.svg" alt="" />
         </div>
-      </div>
+      </section>
 
       <div className="borderBottom"></div>
 
-      <div className="section3 flex">
+      <section className="section3 flex">
         <h1 className="title w-1/3 tracking-widest mt-6 uppercase">
           What we do
         </h1>
@@ -94,11 +102,11 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
       <div className="borderBottom"></div>
 
-      <div className="section4 relative flex">
+      <section className="section4 relative flex">
         <div className="mr-28 parag">
           <h1 className="mt-6 text-6xl uppercase">Featured work</h1>
           <p className="leading-8 my-10 text-xl">
@@ -112,7 +120,7 @@ const Home = () => {
         <span className="borderRight mt-7"></span>
         <div className="flex flex-col">
           <div className="p-10 bloc project-01">
-            <img src="./project-01-p-1600.webp" alt="" />
+            <img src="/public/project-01-p-1600.webp" alt="project-01-img" />
             <div className="flex project justify-between">
               <NavLink className="syne underline-none text-2xl" to="#">
                 Dancing Starts
@@ -128,7 +136,10 @@ const Home = () => {
               <div className="bloc_1">
                 <div className="flex">
                   <div className="p-10 bloc">
-                    <img src="./project-02-p-800.webp" alt="" />
+                    <img
+                      src="/public/project-02-p-800.webp"
+                      alt="project-02-img"
+                    />
                     <div className="flex project justify-between">
                       <NavLink className="syne underline-none text-2xl" to="#">
                         Enjoy Silence
@@ -140,7 +151,10 @@ const Home = () => {
                 </div>
 
                 <div className="p-10 bloc">
-                  <img src="./project-03-p-800.webp" alt="" />
+                  <img
+                    src="/public/project-03-p-800.webp"
+                    alt="project-03-img"
+                  />
                   <div className="flex project justify-between">
                     <NavLink className="syne underline-none text-2xl" to="#">
                       Pure Vision
@@ -153,7 +167,10 @@ const Home = () => {
             <div className="bloc_2">
               <div className="flex">
                 <div className="p-10 bloc ml-48">
-                  <img src="./project-04-p-800.webp" alt="" />
+                  <img
+                    src="/public/project-04-p-800.webp"
+                    alt="project-04-img"
+                  />
                   <div className="flex project justify-between">
                     <NavLink className="syne underline-none text-2xl" to="#">
                       Boring Brand
@@ -164,7 +181,7 @@ const Home = () => {
                 <div className="trait ml-5 mt-9 bg-black h-3/4"></div>
               </div>
               <div className="p-10 bloc ml-48">
-                <img src="./project-05-p-800.webp" alt="" />
+                <img src="/public/project-05-p-800.webp" alt="project-05-img" />
                 <div className="flex culture project w-full">
                   <NavLink className="syne text-2xl whitespace-nowrap" to="#">
                     New Culture
@@ -175,11 +192,11 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
       <div className="borderBottom"></div>
 
-      <div className="flex section5">
+      <section className="flex section5">
         <div className="left w-8/12 mt-16">
           <h1 className="uppercase">How we work</h1>
           <p className="syne text-7xl">
@@ -198,10 +215,11 @@ const Home = () => {
             Our services
           </NavLink>
         </div>
-      </div>
+      </section>
 
       <div className="borderBottom"></div>
-      <div className="section6">
+
+      <section className="section6">
         <h1 className="value uppercase text-6xl syne text-center mt-6">
           Our values
         </h1>
@@ -262,9 +280,11 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
+      </section>
+
       <div className="borderBottom"></div>
-      <div className="flex section7">
+
+      <section className="flex section7">
         <div className="left w-8/12 mt-16">
           <h1 className="uppercase">Contact</h1>
           <p className="syne uppercase text-7xl">
@@ -283,18 +303,22 @@ const Home = () => {
             Our services
           </NavLink>
         </div>
-      </div>
+      </section>
+
       <div className="borderBottom"></div>
-      <div className="section8 mt-10 flex justify-between">
+
+      <section className="section8 mt-10 flex justify-between">
         <h1 className="uppercase text-7xl syne">Latest news</h1>
         <div className="mt-5 all">
           <NavLink className="btn-bg-none uppercase" to="#">
             See all
           </NavLink>
         </div>
-      </div>
+      </section>
+
       <div className="borderBottom"></div>
-      <div className="section9 py-14 flex justify-between">
+
+      <section className="section9 py-14 flex justify-between">
         <div>
           <img
             className="rounded-md"
@@ -330,7 +354,7 @@ const Home = () => {
             Branding: What Real Customers Have to Say
           </NavLink>
         </div>
-      </div>
+      </section>
       <div className="borderBottom"></div>
       <Footer />
     </div>

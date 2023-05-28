@@ -72,7 +72,7 @@ const Contact = () => {
           </form>
         </div>
       </div>
-      <div class="borderBottom"></div>
+      <div className="borderBottom"></div>
       <div className="contact2 flex">
         <h1 className="title w-1/3 tracking-widest mt-6 uppercase">
           Our offices
@@ -86,7 +86,7 @@ const Contact = () => {
               src="./office-01-p-500.webp"
               alt=""
             />
-            <div className="card ml-10 mr-10 mr-16">
+            <div className="card ml-10 mr-16">
               <h1 className="text-2xl uppercase mb-5">Hamburg</h1>
               <p className="leading-8 text-lg">
                 Main Street 16 Berlin, Germany
@@ -114,7 +114,7 @@ const Contact = () => {
               src="./office-03-p-500.webp"
               alt=""
             />
-            <div className="card ml-10 mr-10  mr-16">
+            <div className="card ml-10  mr-16">
               <h1 className="text-2xl uppercase mb-5 ">Budapest</h1>
               <p className="leading-8 text-lg">
                 Main Street 20 Budapest, Hungary
@@ -135,7 +135,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <div class="borderBottom"></div>
+      <div className="borderBottom"></div>
       <div className="contact3 py-14 flex">
         <div className="left w-1/2">
           <h1 className="title w-1/3 tracking-widest mt-6 uppercase">
@@ -151,31 +151,31 @@ const Contact = () => {
             </NavLink>
             <img className="bg-black" src="./plus.svg" alt="" id="image" />
           </div>
-          <div class="borderBottom mb-8 ml-16"></div>
+          <div className="borderBottom mb-8 ml-16"></div>
           <div className="flex w-full justify-between">
             <NavLink className="text-2xl w-full ml-16" to="#">
               Dolor magna eget est lorem ipsum?
             </NavLink>
             <img className="bg-black" src="./plus.svg" alt="" id="image" />
           </div>
-          <div class="borderBottom mb-8 ml-16"></div>
+          <div className="borderBottom mb-8 ml-16"></div>
           <div className="flex w-full justify-between">
             <NavLink className="text-2xl w-full ml-16" to="#">
               Ac tincidunt vitae semper quis lectus?
             </NavLink>
             <img className="bg-black" src="./plus.svg" alt="" id="image" />
           </div>
-          <div class="borderBottom mb-8 ml-16"></div>
+          <div className="borderBottom mb-8 ml-16"></div>
           <div className="flex w-full justify-between">
             <NavLink className="text-2xl w-full ml-16" to="#">
               Sagittis orci a scelerisque?
             </NavLink>
             <img className="bg-black" src="./plus.svg" alt="" id="image" />
           </div>
-          <div class="borderBottom ml-16"></div>
+          <div className="borderBottom ml-16"></div>
         </div>
       </div>
-      <div class="borderBottom"></div>
+      <div className="borderBottom"></div>
       <Footer />
     </div>
   );

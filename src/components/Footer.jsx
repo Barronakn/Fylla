@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="footer py-20">
       <div className="flex footer-top">
         <div className="left w-1/3">
-          <NavLink to="/Fylla">
+          <NavLink to="/">
             <img src="./logo.svg" alt="" />
           </NavLink>
           <p className="mb-48 mt-5 leading-8 text-2xl">

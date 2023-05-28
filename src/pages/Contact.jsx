@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div className="contact margin">
       <Navigation />
-      <div className="flex contact1 py-3 gap-8">
+      <section className="flex contact1 py-3 gap-8">
         <div className="left mt-16">
           <h1 className="uppercase">Contact</h1>
           <p className="syne uppercase text-7xl">
@@ -71,9 +71,9 @@ const Contact = () => {
             />
           </form>
         </div>
-      </div>
+      </section>
       <div className="borderBottom"></div>
-      <div className="contact2 flex">
+      <section className="contact2 flex">
         <h1 className="title w-1/3 tracking-widest mt-6 uppercase">
           Our offices
         </h1>
@@ -134,9 +134,9 @@ const Contact = () => {
             </div>
           </div>
         </div>
-      </div>
+      </section>
       <div className="borderBottom"></div>
-      <div className="contact3 py-14 flex">
+      <section className="contact3 py-14 flex">
         <div className="left w-1/2">
           <h1 className="title w-1/3 tracking-widest mt-6 uppercase">
             Our offices
@@ -174,7 +174,7 @@ const Contact = () => {
           </div>
           <div className="borderBottom ml-16"></div>
         </div>
-      </div>
+      </section>
       <div className="borderBottom"></div>
       <Footer />
     </div>

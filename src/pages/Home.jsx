@@ -120,7 +120,7 @@ const Home = () => {
         <span className="borderRight mt-7"></span>
         <div className="flex flex-col">
           <div className="p-10 bloc project-01">
-            <img src="/public/project-01-p-1600.webp" alt="project-01-img" />
+            <img src="./project-01-p-1600.webp" alt="project-01-img" />
             <div className="flex project justify-between">
               <NavLink className="syne underline-none text-2xl" to="#">
                 Dancing Starts
@@ -136,10 +136,7 @@ const Home = () => {
               <div className="bloc_1">
                 <div className="flex">
                   <div className="p-10 bloc">
-                    <img
-                      src="/public/project-02-p-800.webp"
-                      alt="project-02-img"
-                    />
+                    <img src="./project-02-p-800.webp" alt="project-02-img" />
                     <div className="flex project justify-between">
                       <NavLink className="syne underline-none text-2xl" to="#">
                         Enjoy Silence
@@ -151,10 +148,7 @@ const Home = () => {
                 </div>
 
                 <div className="p-10 bloc">
-                  <img
-                    src="/public/project-03-p-800.webp"
-                    alt="project-03-img"
-                  />
+                  <img src="./project-03-p-800.webp" alt="project-03-img" />
                   <div className="flex project justify-between">
                     <NavLink className="syne underline-none text-2xl" to="#">
                       Pure Vision
@@ -167,10 +161,7 @@ const Home = () => {
             <div className="bloc_2">
               <div className="flex">
                 <div className="p-10 bloc ml-48">
-                  <img
-                    src="/public/project-04-p-800.webp"
-                    alt="project-04-img"
-                  />
+                  <img src="./project-04-p-800.webp" alt="project-04-img" />
                   <div className="flex project justify-between">
                     <NavLink className="syne underline-none text-2xl" to="#">
                       Boring Brand
@@ -181,7 +172,7 @@ const Home = () => {
                 <div className="trait ml-5 mt-9 bg-black h-3/4"></div>
               </div>
               <div className="p-10 bloc ml-48">
-                <img src="/public/project-05-p-800.webp" alt="project-05-img" />
+                <img src="./project-05-p-800.webp" alt="project-05-img" />
                 <div className="flex culture project w-full">
                   <NavLink className="syne text-2xl whitespace-nowrap" to="#">
                     New Culture

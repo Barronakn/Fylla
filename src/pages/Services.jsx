@@ -117,6 +117,7 @@ const Services = () => {
             autoPlay
             src="/public/services-design-transcode.mp4"
             alt="services-design-transcode-video"
+            controls
           />
         </div>
       </section>
@@ -164,6 +165,7 @@ const Services = () => {
             autoPlay
             src="/public/services-video-transcode.mp4"
             alt="services-video-transcode-video"
+            controls
           />
         </div>
       </section>
@@ -211,6 +213,7 @@ const Services = () => {
             autoPlay
             src="/public/services-content-transcode.mp4"
             alt="services-content-transcode-video"
+            controls
           />
         </div>
       </section>
